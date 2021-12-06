@@ -1,16 +1,16 @@
 package android.example.guardiannews.data;
 
-public class News {
+public class News  {
 
-    private String NewsSectionId;
+
     private String NewsSectionName;
     private String NewsPublishedDate;
     private String NewsTitle;
     private String NewsThumbnail;
     private String NewsUrl;
 
-    public News(String newsSectionId, String newsSectionName, String newsPublishedDate, String newsTitle, String newsThumbnail, String newsUrl) {
-        NewsSectionId = newsSectionId;
+    public News( String newsSectionName, String newsPublishedDate, String newsTitle, String newsThumbnail, String newsUrl) {
+
         NewsSectionName = newsSectionName;
         NewsPublishedDate = newsPublishedDate;
         NewsTitle = newsTitle;
@@ -18,9 +18,8 @@ public class News {
         NewsUrl = newsUrl;
     }
 
-    public String getNewsSectionId() {
-        return NewsSectionId;
-    }
+
+
 
     public String getNewsSectionName() {
         return NewsSectionName;
